@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="white"/>
+<g id="read-more 1" clip-path="url(#clip0)">
+<path id="arrow" d="M28.8 6.2L16 19L3.2 6.2L0 9.4L16 25.8L32 9.4L28.8 6.2Z" fill="#277BBA"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

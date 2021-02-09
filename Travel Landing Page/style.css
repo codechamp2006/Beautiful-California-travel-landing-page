@@ -1,0 +1,196 @@
+/* Importing Google Fonts from fonts.googleapis.com */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+  scroll-behavior: smooth;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+icon {
+  transform: translateX(10vw);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+navbar{
+    transform: translateX(30vw) translateY(-1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+}
+
+navbar li{
+    cursor: pointer;
+    padding-right: 3vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2vw;
+    font-weight:bold;
+    list-style: none;
+    margin: 1rem;
+}
+
+navbar li:hover{
+    color: rebeccapurple;
+}
+
+h2 {
+  font-family: "Poppins", "sans-serif";
+  font-size: 2.5vw;
+  letter-spacing: 0.1vw;
+}
+
+h3 {
+  font-family: "Poppins", "sans-serif";
+  font-size: 2.5vw;
+  word-spacing: 1.2px;
+  letter-spacing: 0.3vw;
+}
+
+tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+tags h1 {
+  padding: 10px 10px;
+  background: white;
+  margin: 10px 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1vw;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
+  transition: 0.4s ease linear;
+}
+
+tags h1:hover {
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.4s linear;
+}
+
+banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+banner img {
+  border-radius: 5px;
+}
+
+banner p {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  padding-right: 55vw;
+  transition: 0.5s ease linear;
+  border-bottom:1px solid #277bba;
+}
+
+banner p:hover{
+    transition: 0.5s ease linear;
+}
+
+greet-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+greet-header p {
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2vw;
+}
+
+read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+read-more button {
+  cursor: pointer;
+  color: #277bba;
+  border: none;
+  transition: 0.7s ease-in-out;
+  height: 30px;
+   background: rgba(0, 0, 0, 0.01);
+}
+
+read-more button img {
+  padding-left: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+read-more button img:hover {
+  padding-left: 3px;
+  transition: 0.3s ease-in-out;
+  transform: rotate(360deg);
+}
+
+read-more button:hover {
+    box-shadow: 1px 1px 10px  rgba(0,0,0,0.5);
+    transition: 0.7s ease-in-out;
+}
+
+Experience{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+Experience h4{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 2.5vw;
+  letter-spacing: 0.3vw;
+  transform: translateX(-100%);
+}
+
+Day-tours{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+Day-tours header-title{
+  margin-right: 81vw;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2vw;
+  letter-spacing: 0.1vw;
+}
+
+/* Still need to work with animations and image carousel */
